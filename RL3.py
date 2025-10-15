@@ -141,7 +141,7 @@ for row in rows:
 # 더 이상 나눠줄 수 없으면 처음 위치로 돌아옴. depot에서 선물 챙겨서 새로운 route 만들기.
 # 제약조건 있는 조합 최적화 문제로 간주, RL 이용해 풀어보자
 
-SEED = 0
+SEED = 2345687
 EPISODES = 400         
 MEM_CAP = 20000
 BATCH = 64
